@@ -11,6 +11,8 @@
 		2350078D2C0CC69C009B6848 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2350078C2C0CC69C009B6848 /* ContentView.swift */; };
 		2350078F2C0CC69E009B6848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2350078E2C0CC69E009B6848 /* Assets.xcassets */; };
 		235007922C0CC69E009B6848 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235007912C0CC69E009B6848 /* Preview Assets.xcassets */; };
+		23A030AA2C0CD03800A5FE86 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A030A92C0CD03800A5FE86 /* ContentViewModel.swift */; };
+		23A030AC2C0CD19400A5FE86 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A030AB2C0CD19400A5FE86 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		2350078C2C0CC69C009B6848 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2350078E2C0CC69E009B6848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		235007912C0CC69E009B6848 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		235007982C0CCE84009B6848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		23A030A92C0CD03800A5FE86 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		23A030AB2C0CD19400A5FE86 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +56,13 @@
 		235007892C0CC69C009B6848 /* AirHockey */ = {
 			isa = PBXGroup;
 			children = (
+				235007982C0CCE84009B6848 /* Info.plist */,
 				2350078A2C0CC69C009B6848 /* AirHockeyApp.swift */,
 				2350078C2C0CC69C009B6848 /* ContentView.swift */,
 				2350078E2C0CC69E009B6848 /* Assets.xcassets */,
 				235007902C0CC69E009B6848 /* Preview Content */,
+				23A030A92C0CD03800A5FE86 /* ContentViewModel.swift */,
+				23A030AB2C0CD19400A5FE86 /* GameState.swift */,
 			);
 			path = AirHockey;
 			sourceTree = "<group>";
@@ -138,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2350078D2C0CC69C009B6848 /* ContentView.swift in Sources */,
+				23A030AC2C0CD19400A5FE86 /* GameState.swift in Sources */,
 				2350078B2C0CC69C009B6848 /* AirHockeyApp.swift in Sources */,
+				23A030AA2C0CD03800A5FE86 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +285,8 @@
 				DEVELOPMENT_TEAM = BHS88Y2WBP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirHockey/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This apps require Local Network";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +316,8 @@
 				DEVELOPMENT_TEAM = BHS88Y2WBP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirHockey/Info.plist;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "This apps require Local Network";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
